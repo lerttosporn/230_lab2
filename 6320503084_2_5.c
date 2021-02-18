@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
- int d,m,c;
+ int d,m,n;
     scanf("%d %d",&d,&m);
     if(d>7)
     {
@@ -22,10 +22,10 @@ int main()
         case 11: n=30; break;
         case 12: n=31; break;
     }
-    if((n+a)%7==0)
+    if((n+d)%7==0)
     {
  printf("7");
     }
     else
- printf("%d",(c+a)%7);
+ printf("%d",(n+d)%7);
 }
